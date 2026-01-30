@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <title>Isaac Clarke - Portfolio</title>
         <!-- Custom favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon-ic.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon-ic.ico">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet">
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Isaac Clarke</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/websitepicture.png" alt="isaac clarke profile picture" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/websitepicture.png" alt="isaac clarke profile picture"></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -32,12 +32,13 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">Video</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
+        <main>
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
@@ -60,7 +61,7 @@
                     </div> -->
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0">
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -83,9 +84,10 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0">
             <!-- Education-->
              <!-- including both completed and ongoing education -->
+              <!--Corrected and reformatted based on feedback!-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
@@ -93,37 +95,34 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">University of Denver</h3>
                             <div class="subheading mb-3">Masters of Library and Information Sciences</div>
-                            <div>MLIS - Archivist Track</div>
-                            </div>
-                            <p>Current GPA: 4.0</p>
+                            <p>MLIS - Archivist Track</p>
+                            <p>GPA: 4.0</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">01/2025 - Present</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between"></div>
-                </div>
-            </section>
-             <section class="resume-section" id="education">
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">University of Massachusetts, Amherst</h3>
                             <div class="subheading mb-3">Bachelor of Classics</div>
-                            <div>Classical Studies - Focus in Languages
-                                <p>Four year degree completed in three years.</p></div>
-                            </div>
-                            <p>GPA: 3.7</p>
-                        </div>
+                            <div>Classical Studies - Focus in Languages</div>
+                                <p>Four year degree completed in three years.</p>
+                                <p>GPA: 3.7</p>
+                        </div> 
                         <div class="flex-shrink-0"><span class="text-primary">09/2011 - 05/2014</span></div>
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between"></div>
+                    </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0">
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
+                        <!-- W3C validator is telling me that the i element should not be used like this, but when i add the li tag to each item it makes them display 
+                         vertically instead of horizontally and nothing i researched seemed to fix that, i'm not sure if thats something that we may cover later in class
+                         or if that kind of reformatting would require CSS maybe? for now this is displaying correctly so i am leaving it but let me know if 
+                         it should be changed too! -->
                         <i class="fa-brands fa-wordpress"></i>
                         <i class="fa-brands fa-drupal"></i>
                         <i class="fa-brands fa-github"></i>
@@ -143,21 +142,21 @@
                     </ul>
                     <ul class="fa-ul mb-0">
                     <li>
-                            <span class="fa-li"><i class="fa-solid fa-bug"></i></i></span>
+                            <span class="fa-li"><i class="fa-solid fa-bug"></i></span>
                             10+ years of experience with Microsoft Office Suite
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fa-solid fa-bug"></i></i></span>
+                            <span class="fa-li"><i class="fa-solid fa-bug"></i></span>
                             10+ years of experience with the Windows Operating System
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fa-solid fa-bug"></i></i></span>
+                            <span class="fa-li"><i class="fa-solid fa-bug"></i></span>
                             10+ years of experience with MacOSX
                         </li>
-                        </div>ul>
-                </div>
+                    </ul>
+                </div> <!-- fixed error with unclosed tag -->
             </section>
-            <hr class="m-0" />
+            <hr class="m-0">
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
@@ -166,7 +165,7 @@
                     <p class="mb-0">When not working on personal hobbies, I spend the majority of my time with my son, enjoying places such as the Denver Children's Museum and the local libraries in our area.</p>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0">
             <!-- Awards-->
              <!-- I'm afraid I don't have anything noteworthy for this section at the moment. -->
             <!-- <section class="resume-section" id="awards">
@@ -215,20 +214,23 @@
                 </div>
             </section> -->
 
-             <hr class="m-0" />
+             <hr class="m-0">
             <!-- Video-->
             <section class="resume-section" id="video">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Video</h2>
                     <p>Below is a link to my favorite documentary available for free on YouTube about one of my personal favorite subjects, deep sea gigantism.</p>
 <!-- embedded link to my favorite documentary on youtube -->
+ <!-- W3C validation is giving me an error that the 'frameborder' element is out of date and should be replaced with CSS but since we haven't gone over CSS in class i honestly have no idea how to do that -->
                 <iframe width="1208" height="669" src="https://www.youtube.com/embed/FmR14Yng9kI" title="Deep Sea Gigantism | Why the Ocean Breeds Giants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </section>
         </div>
+        </main>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
     </body>
 </html>
